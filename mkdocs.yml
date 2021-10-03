@@ -25,3 +25,8 @@ nav:
     
 extra_css:
   - stylesheets/extra.css
+
+
+dev_addr: '0.0.0.0:8080'
+
+
