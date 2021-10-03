@@ -1,0 +1,27 @@
+site_name: DiscordSRVUtils
+theme:
+  name: material
+  favicon: images/logo.png
+  logo: images/logo.png
+  custom_dir: 'custom_theme'
+  features:
+    - navigation.expand
+  palette:
+    - scheme: slate
+      primary: light blue
+      accent: blue
+  
+nav:
+    - 'Configuration':
+      - 'Messages': messages.md 
+      - 'Message JSON': message-json.md
+    - 'Tickets System':
+      - 'What are tickets': tickets.md
+      - 'How to Make a Ticket Panel': create-panel.md
+    - 'Leveling System': 
+      - 'How it works': leveling.md
+    
+    
+    
+extra_css:
+  - stylesheets/extra.css
