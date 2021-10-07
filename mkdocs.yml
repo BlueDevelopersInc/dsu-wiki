@@ -20,6 +20,8 @@ nav:
       - 'How to Make a Ticket Panel': create-panel.md
     - 'Leveling System': 
       - 'How it works': leveling.md
+    - 'Suggestions System': 
+      - 'How it works': suggestions.md
     
     
     
@@ -27,6 +29,11 @@ extra_css:
   - stylesheets/extra.css
 
 
-dev_addr: '0.0.0.0:8080'
+dev_addr: '0.0.0.0:3000'
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 

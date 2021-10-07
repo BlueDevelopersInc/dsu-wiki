@@ -15,3 +15,10 @@ Depends on the message, for example afk message have "player" and you can use an
 # PAPI
 
 PAPI is always supported if you have it installed. the player is not set if its not a player-related message, what are player-related messages? Just like AFK Messages
+
+
+# SpEL
+
+- SpEL is supported too. Read how to use it: 
+ * <a href="https://docs.spring.io/spring/docs/4.2.x/spring-framework-reference/html/expressions.html" target="blank">https://docs.spring.io</a> 
+ * <a href="https://dzone.com/articles/learn-spring-expression-language-with-examples" target="blank">https://dzone.com</a> 
