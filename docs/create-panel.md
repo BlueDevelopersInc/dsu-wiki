@@ -35,7 +35,7 @@ Send the ID of the Category Closed tickets should be sent to. Must be in main gu
 
 ### Step 5 : Allowed Roles
 
-Send the ids of the allowed roles in a list (role1id, role2id, role3id), or mention them, or say "none" for none
+Send the ids of the allowed roles in a list (role1id role2id role3id), or mention them, or say "none" for none
 
 ### Done!
 
