@@ -2,7 +2,11 @@
 
 ## Make sure that:
 
-you are on the admin list in the config
+- You are on the admin list in the config
+
+- You have dev mode on 
+
+![IMG](images/enable-dev-mode.gif)
 
 ## Lets start
 
@@ -21,9 +25,13 @@ Mention the channel you would like the message that users react to is sent, once
 
 Send the ID of the Category Opened tickets should be sent to. Must be in main guild
 
+![IMG](images/copy-opened-id.gif)
+
 ### Step 4: Closed Category
 
 Send the ID of the Category Closed tickets should be sent to. Must be in main guild
+
+![IMG](images/copy-closed-id.gif)
 
 ### Step 5 : Allowed Roles
 
