@@ -503,14 +503,27 @@
 <p><img alt="img" src="images/enable-dev-mode.gif" /></p>
 <ol>
 <li>Go into your <code>config.yml</code> of DiscordSRVUtils</li>
-<li>the first option would be the admins</li>
-<li>Add your Discord ID in</li>
-<li>Add an Admin Role ID in</li>
+<li>the first option would be the admins, Add your Discord ID in or a role ID</li>
 <li>
-<p>Reload the plugin using <code>/dsu reload</code> and make sure you have the permission <code>discordsrvutils.reload</code></p>
+<p>Reload the plugin using <code>/dsu reload</code> and make sure you have the permission <code>discordsrvutils.reload</code> </p>
 <p><img alt="img.png" src="images/conf-admins-example.png" /></p>
 </li>
 </ol>
+<blockquote>
+<p>⚠ Whoever is in the list of admins or have a role that is in list of admins have access to everything in the plugin (in discord)</p>
+</blockquote>
+<h1 id="how-to-disable-discord-commands">How to Disable Discord Commands</h1>
+<ol>
+<li>Go to <code>config.yml</code></li>
+<li>Scroll until you find <code>disabled-commands</code>, add commands you want to disable</li>
+<li>
+<p>Reload the plugin using <code>/dsu reload</code> and make sure you have the permission <code>discordsrvutils.reload</code>  </p>
+<p><img alt="img.png" src="images/conf-disabled-commands-example.png" />  </p>
+</li>
+</ol>
+<blockquote>
+<p>⚠ Please do not use aliases, and those commands disabled will be as if they don't exist</p>
+</blockquote>
 <h1 id="requirements">Requirements</h1>
 <ul>
 <li>DiscordSRV.</li>
