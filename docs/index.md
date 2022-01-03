@@ -21,6 +21,8 @@ Its very simply, before the steps make sure this is on
 
     ![img.png](images/conf-admins-example.png)
 
+> ⚠ Whoever is in the list of admins or have a role that is in list of admins have access to everything in the plugin (in discord)
+
 
 # Requirements
 
