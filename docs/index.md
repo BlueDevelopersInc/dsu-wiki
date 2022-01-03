@@ -2,79 +2,33 @@
 
 We work hard to make the plugin very easy as we can. Here we explain how to do everything, and anyway everything is easy!
 
+# How to install
+1. Download [DiscordSRV Plugin](https://www.spigotmc.org/resources/discordsrv.18494/) and drop it into your plugins folder
+2. Restart your server, and follow the DiscordSRV Installation steps
+3. Drop [DiscordSRVUtils](https://www.spigotmc.org/resources/discordsrvutils.85958/) into your plugins folder
+4. Configure the plugin, in most cases you need to have admin
 
-# Features
+# How to get Admin
+Its very simply, before the steps make sure this is on
 
-* * *
+![img](images/enable-dev-mode.gif)
 
-Messages Fully Custom
-=====================
+1. Go into your `config.yml` of DiscordSRVUtils
+2. the first option would be the admins
+ - Add your Discord ID in
+ - Add an Admin Role ID in
+3. Reload the plugin using `/dsu reload` and make sure you have the permission `discordsrvutils.reload`
 
-Completely Customize your messages. Any Message Can be embed, or normal text, or both. PAPI Supported too! All with a message system!  
-  
-You Put Embed json in messages folder and set message to "message:nameoffilenoextension"
-
-See Wiki
-
-* * *
-
-Messages Fully Custom
-=====================
-
-Completely Customize your messages. Any Message Can be embed, or normal text, or both. PAPI Supported too! All with a message system!  
-  
-You Put Embed json in messages folder and set message to "message:nameoffilenoextension"
-
-* * *
-
-Disable DiscordSRV's Account Link Listener
-==========================================
-
-Disable DiscordSRV's Account Link Listener. Useful if you have multiple servers with same bot. Note it wont listen to event not only not respond
-
-* * *
-
-Welcome & GoodBye Messages
-==========================
-
-Make your own bot welcome and goodbye members! Most needed placeholders supported in addition to papi! They are Completely Custom.
-
-* * *
-
-Essentials AFK Messages
-=======================
-
-Send Essentials AFK Messages to Discord! And Still Completely Custom
-
-* * *
-
-AdvancedBan Punishment sync and Messages
-========================================
-
-Sync AdvancedBan Punishments with your discord (if player is linked). Send Messages to Discord, They Are Completely Custom!
-
-* * *
-
-Tickets System
-==============
-
-Create a ticket panel, and any user can open a ticket! 90% custom messages and easy to use!
-
-* * *
-
-Leveling System
-===============
-
-Normal Leveling but synced with Discord!
+    ![img.png](images/conf-admins-example.png)
 
 
 # Requirements
 
 - DiscordSRV.
-- Minecraft version from 1.8 -> 1.17 (new versions should work without new dsu updates)
+- Minecraft version from 1.8 -> 1.18 (new versions should work without new dsu updates)
 
 # Required Permissions
-- Ban Members (For AdvancedBan Sync)
+- Ban Members (For Punishment Sync)
 
 # How we store data
 

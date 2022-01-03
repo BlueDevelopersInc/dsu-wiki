@@ -22,6 +22,8 @@ nav:
       - 'How it works': leveling.md
     - 'Suggestions System': 
       - 'How it works': suggestions.md
+    - 'Status':
+        - 'How to set it up': status.md
     
     
     
