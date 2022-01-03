@@ -14,15 +14,22 @@ Its very simply, before the steps make sure this is on
 ![img](images/enable-dev-mode.gif)
 
 1. Go into your `config.yml` of DiscordSRVUtils
-2. the first option would be the admins
- - Add your Discord ID in
- - Add an Admin Role ID in
-3. Reload the plugin using `/dsu reload` and make sure you have the permission `discordsrvutils.reload`
+2. the first option would be the admins, Add your Discord ID in or a role ID
+3. Reload the plugin using `/dsu reload` and make sure you have the permission `discordsrvutils.reload` 
 
     ![img.png](images/conf-admins-example.png)
 
 > ⚠ Whoever is in the list of admins or have a role that is in list of admins have access to everything in the plugin (in discord)
 
+# How to Disable Discord Commands
+
+1. Go to `config.yml`
+2. Scroll until you find `disabled-commands`, add commands you want to disable
+3. Reload the plugin using `/dsu reload` and make sure you have the permission `discordsrvutils.reload`  
+   
+    ![img.png](images/conf-disabled-commands-example.png)  
+   
+> ⚠ Please do not use aliases, and those commands disabled will be as if they don't exist
 
 # Requirements
 
