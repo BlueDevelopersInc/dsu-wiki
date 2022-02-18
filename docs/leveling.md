@@ -1,6 +1,6 @@
 # Leveling
 
-DiscordSRVUtils has its own leveling system. This System works like alot other plugins but with some changes
+DiscordSRVUtils has its own leveling system. This System works like a lot other plugins but with some changes
 
 ## How it works
 
@@ -8,4 +8,4 @@ Just like a normal leveling plugin. Every Minecraft Player has his own leveling 
 
 ## Anti Spam
 
-If this option is enabled in config, every player  can only levelup in xp 1 time per minute.
+If this option is enabled in config, every player can only levelup in xp 1 time per minute.

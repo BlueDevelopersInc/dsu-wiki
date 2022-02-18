@@ -28,16 +28,16 @@ Set messages, toggle things, until it is ready to be used
 
 
 ### Make suggestion
-The user uses the `!suggest <Suggestion>` command, a new message will be sent in the suggestions channel.. including a Suggestion Number.
+The user uses the `/suggest <Suggestion>` command, a new message will be sent in the suggestions channel.. including a Suggestion Number.
 
 ### Add a note
 
-Add a note to tell your user some note about the suggestion. use `!addnote <Suggestion Number> <Note Text>` to add note.. Requires Admin in admin list
+Add a note to tell your user some note about the suggestion. use `/addnote <Suggestion Number> <Note Text>` to add note.. Requires Admin in admin list
 As soon as you add it, last one made will be displayed on the suggestion
 
 ### Approve or deny the suggestion
 
-use `!approve <Suggestion Number>` or `!deny <Suggestion Number>` to approve or deny
+use `/approve <Suggestion Number>` or `/deny <Suggestion Number>` to approve or deny
 Also requires Admin in admins list
 
 

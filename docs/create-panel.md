@@ -8,10 +8,10 @@
 
 ![IMG](images/enable-dev-mode.gif)
 
-## Lets start
+## Let's start
 
-Ok, now use the !createpanel command (! is the default prefix)
-if you wanna retry any step, you will have to say "cancel" and use the command again
+Ok, now use the /createpanel
+if you want to retry any step, you will have to say "cancel" and use the command again
 
 ### Step 1: Panel Name
 

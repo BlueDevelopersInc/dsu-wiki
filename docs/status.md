@@ -6,7 +6,7 @@
 It sends a message in discord channel that updates every X of time, full placeholder support, they can also be updated thru events, so the message is never missing anything
 
 # How to enable it
-Use the `!status` command, and mention the channel, for example `!status #server-status`
+Use the `/status` command, and mention the channel, for example `/status #server-status`
 
 # How to find events
 

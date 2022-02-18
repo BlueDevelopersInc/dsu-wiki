@@ -22,3 +22,7 @@ PAPI is always supported if you have it installed. the player is not set if its 
 - SpEL is supported too. Read how to use it: 
  * <a href="https://docs.spring.io/spring/docs/4.2.x/spring-framework-reference/html/expressions.html" target="blank">https://docs.spring.io</a> 
  * <a href="https://dzone.com/articles/learn-spring-expression-language-with-examples" target="blank">https://dzone.com</a> 
+
+
+# Testing
+You can test your changes using `/testmessage <message name>`

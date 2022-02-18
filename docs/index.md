@@ -28,7 +28,9 @@ Its very simply, before the steps make sure this is on
 3. Reload the plugin using `/dsu reload` and make sure you have the permission `discordsrvutils.reload`  
    
     ![img.png](images/conf-disabled-commands-example.png)  
-   
+
+> ℹ It will be removed from slash command list
+
 > ⚠ Please do not use aliases, and those commands disabled will be as if they don't exist
 
 # Requirements
