@@ -24,6 +24,7 @@ nav:
       - 'How it works': suggestions.md
     - 'Status':
         - 'How to set it up': status.md
+    - 'Punishments Integration': punishments-integration.md
     
     
     
