@@ -6,7 +6,7 @@ Due to differences on how these plugins work, compatibility is not the same, thi
 
 Note: This won't work if the punishments' plugin is on proxy
 
-🟢 Revoking Punishments may be late to be noticed (means late removal of punishment or sending the message on discord)
+🟢 Expired Punishments may be late to be noticed (means late removal of punishment or sending the message on discord)
 
 🟡 Expired Punishments may not be noticed (means no removal messages or removal of punishments on discord)
 
