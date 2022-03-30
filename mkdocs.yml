@@ -15,6 +15,7 @@ nav:
     - 'Configuration':
       - 'Messages': messages.md 
       - 'Message JSON': message-json.md
+    - 'Common Problems': common-problems.md
     - 'Tickets System':
       - 'What are tickets': tickets.md
       - 'How to Make a Ticket Panel': create-panel.md
