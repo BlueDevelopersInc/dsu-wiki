@@ -14,7 +14,7 @@
     
     
       
-        <title>Punishments Integration - DiscordSRVUtils</title>
+        <title>Common Problems - DiscordSRVUtils</title>
       
     
     
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#punishment-plugins-supported" class="md-skip">
+        <a href="#common-problems" class="md-skip">
           Skip to content
         </a>
       
@@ -104,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Punishments Integration
+              Common Problems
             
           </span>
         </div>
@@ -259,11 +259,78 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../common-problems/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Common Problems
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Common Problems
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#commands-not-showing" class="md-nav__link">
+    / commands not showing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#status-console-errors" class="md-nav__link">
+    /status console errors
+  </a>
+  
+    <nav class="md-nav" aria-label="/status console errors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reason-1" class="md-nav__link">
+    Reason 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reason-2" class="md-nav__link">
+    Reason 2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -480,21 +547,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../punishments-integration/" class="md-nav__link">
         Punishments Integration
       </a>
-      
     </li>
   
 
@@ -518,6 +575,48 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#commands-not-showing" class="md-nav__link">
+    / commands not showing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#status-console-errors" class="md-nav__link">
+    /status console errors
+  </a>
+  
+    <nav class="md-nav" aria-label="/status console errors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reason-1" class="md-nav__link">
+    Reason 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reason-2" class="md-nav__link">
+    Reason 2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -529,46 +628,46 @@
               
                 
                 
-                <h1 id="punishment-plugins-supported">Punishment Plugins supported</h1>
-<p>This plugin currently supports <strong>AdvancedBan</strong>, <strong>LibertyBans</strong> and <strong>LiteBans</strong></p>
-<p>Due to differences on how these plugins work, compatibility is not the same, this table shows the advantages &amp; disadvantages of the integration.</p>
-<p>Note: This won't work if the punishments' plugin is on proxy</p>
-<p>🟢 Expired Punishments may be late to be noticed (means late removal of punishment or sending the message on discord)</p>
-<p>🟡 Expired Punishments may not be noticed (means no removal messages or removal of punishments on discord)</p>
-<table>
-<thead>
-<tr>
-<th>Plugin</th>
-<th>Punishment Sync</th>
-<th>Punishment Messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>AdvancedBan</td>
-<td>✔️🟢</td>
-<td>✔️🟢</td>
-</tr>
-<tr>
-<td>LibertyBans</td>
-<td>✔️🟡</td>
-<td>✔️🟡</td>
-</tr>
-<tr>
-<td>LiteBans</td>
-<td>✔️</td>
-<td>✔️</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>
-<p>It may look like AdvancedBan/Litebans is the most compatible, but I recommend LibertyBans as your punishments plugin</p>
-</li>
-<li>
-<p>I don't own litebans, I don't know what works and what doesn't, so it's not that "perfect" i just never tested it</p>
-</li>
-</ul>
+                <h1 id="common-problems">Common Problems</h1>
+<p>the following are the problems many people have.</p>
+<h2 id="commands-not-showing">/ commands not showing</h2>
+<p>The Most Common Reason for this is missing bot scopes, please check your logs for a new invite generated by discordsrvutils,
+and use it again and run <code>/dsu reload</code>, you can also run <code>/dsu debug</code> and check the logs part in the report, it's easier to find it there.</p>
+<h2 id="status-console-errors">/status console errors</h2>
+<h3 id="reason-1">Reason 1</h3>
+<p>Bad Permissions, please make sure this folder <code>plugins/discordsrvutils/data</code> has permission of 777, if folder doesn't exist create it and set permission to 777</p>
+<h3 id="reason-2">Reason 2</h3>
+<p>Server is outdated, the default <code>status-online</code> message is not designed for old versions, of course, you can modify the default one to the one for your server version, the following should work:</p>
+<pre><code class="language-json">{
+  &quot;embed&quot;: {
+    &quot;title&quot;: &quot;:green_circle: Online&quot;,
+    &quot;description&quot;: &quot;Change this message in /plugins/DiscordSRVUtils/messages/status-online.json&quot;,
+    &quot;color&quot;: &quot;green&quot;,
+    &quot;timestamp&quot;: &quot;now&quot;,
+    &quot;footer&quot;: {
+      &quot;text&quot;: &quot;Server is online&quot;
+    },
+    &quot;thumbnail&quot;: {
+      &quot;url&quot;: &quot;https://cdn.freebiesupply.com/logos/large/2x/minecraft-1-logo-png-transparent.png&quot;
+    },
+    &quot;fields&quot;: [
+      {
+        &quot;name&quot;: &quot;Players&quot;,
+        &quot;value&quot;: &quot;${#server.getOnlinePlayers().length}/[server.maxPlayers]&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Version&quot;,
+        &quot;value&quot;: &quot;Unknown&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Server IP&quot;,
+        &quot;value&quot;: &quot;play.example.com&quot;
+      }
+    ]
+  }
+}
+</code></pre>
+<p>Here we modified the <code>Players</code> field placeholder value from <code>${#server.getOnlinePlayers().size()}....</code> to <code>${#server.getOnlinePlayers().length}....</code></p>
                 
               
               
@@ -588,7 +687,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../status/" class="md-footer__link md-footer__link--prev" aria-label="Previous: How to set it up" rel="prev">
+        <a href="../message-json/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Message JSON" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -597,11 +696,26 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              How to set it up
+              Message JSON
             </div>
           </div>
         </a>
       
+      
+        
+        <a href="../tickets/" class="md-footer__link md-footer__link--next" aria-label="Next: What are tickets" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              What are tickets
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
       
     </nav>
   
