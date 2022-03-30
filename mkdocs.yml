@@ -1,4 +1,8 @@
 site_name: DiscordSRVUtils
+site_description: The Wiki For How DiscordSRVUtils works and how to set it up
+repo_url: https://github.com/BlueDevelopersInc/dsu-wiki
+repo_name: Wiki Github
+edit_uri: edit/master/docs
 theme:
   name: material
   favicon: images/logo.png
@@ -26,6 +30,10 @@ nav:
     - 'Status':
         - 'How to set it up': status.md
     - 'Punishments Integration': punishments-integration.md
+    - 'Fixing Problems':
+        - 'Request a Feature': 'https://github.com/BlueDevelopersInc/DiscordSRVUtils/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=%5BFeature+Request%5D+'
+        - 'Report a Bug': 'https://github.com/BlueDevelopersInc/DiscordSRVUtils/issues/new?assignees=&labels=bug&template=bug-report.md&title=%5BBUG%5D'
+        - 'Get Support': 'https://discordsrvutils.xyz/support'
     
     
     
@@ -39,5 +47,11 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: http://discordsrvutils.xyz/support
+      name: DiscordSRVUtils Support
 
 
