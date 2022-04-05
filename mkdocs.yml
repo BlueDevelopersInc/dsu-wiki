@@ -25,6 +25,7 @@ nav:
       - 'How to Make a Ticket Panel': create-panel.md
     - 'Leveling System': 
       - 'How it works': leveling.md
+      - 'Leveling Roles': leveling-roles.md
     - 'Suggestions System': 
       - 'How it works': suggestions.md
     - 'Status':
