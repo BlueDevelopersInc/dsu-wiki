@@ -13,16 +13,6 @@ table code {
     white-space: nowrap
 }
 
-a[href^="http" ]:not(.md-button, [data-sub-html], .md-footer-social__link, .md-source, .md-logo, [href*="config.discordsrv.com"], [href*="squidfunk.github.io"], [href*="Documentation/edit"]):after {
-    background: transparent var(--external-link-icon) 0 0 no-repeat;
-    content: "";
-    display: inline-block;
-    height: 12px;
-    margin-left: 3px;
-    width: 12px;
-    filter: invert(1);
-}
-
 .md-header {
     background-color: var(--header-color);
 }
