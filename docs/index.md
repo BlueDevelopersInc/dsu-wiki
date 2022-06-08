@@ -36,7 +36,7 @@ Its very simply, before the steps make sure this is on
 # Requirements
 
 - DiscordSRV.
-- Minecraft version from 1.8 -> 1.18 (new versions should work without new dsu updates)
+- Minecraft version from 1.8 -> 1.19 (new versions should work without new dsu updates)
 
 # Required Permissions
 - Ban Members (For Punishment Sync)

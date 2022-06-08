@@ -7,7 +7,7 @@ First, you need to configure suggestions.
 ### Enable Suggestions
 
 in the suggestions.yml.. switch enabled to true
-```yml
+```yaml
 enabled: true
 ```
 
@@ -15,7 +15,7 @@ enabled: true
 
 in the suggestions.yml, set suggestions_channel to your suggestions channel
 
-```yml
+```yaml
 enabled: true
 suggestions_channel: 894677242238623796 #Example ID, this won't work for you
 ```
@@ -43,7 +43,7 @@ Also requires Admin in admins list
 
 ## Example final look
 
-![img](https://discordsrvutils.ml/img/features/Feature-8.png) 
+![img](https://discordsrvutils.xyz/img/features/Feature-8.png) 
 
 You can modify this in config
 
