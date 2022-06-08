@@ -38,8 +38,12 @@ Its very simply, before the steps make sure this is on
 - DiscordSRV.
 - Minecraft version from 1.8 -> 1.19 (new versions should work without new dsu updates)
 
-# Required Permissions
+# Optional Permissions
+
 - Ban Members (For Punishment Sync)
+- Manage Server (for detecting invititers)
+- Manage Channels (For ticket creation)
+- Manage Roles (for welcomer role, and syncing mutes and ban role)
 
 # How we store data
 
