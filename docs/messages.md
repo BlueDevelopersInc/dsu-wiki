@@ -10,7 +10,7 @@ Any Message in the configurations that is a discord message uses the same way to
 
 Depends on the message, for example afk message have "player" and you can use anything after it like "[player.name]". Must be a get method in the Player class, this is an example, other messages like welcome message have "user", "member" and "guild". Any of these must have [] and a .something (as i said needs to have a get method in the class)
 
-[Join Support if you don't understand this](https://discordsrvutils.ml/support)
+[Join Support if you don't understand this](https://discordsrvutils.xyz/support)
 
 # PAPI
 
