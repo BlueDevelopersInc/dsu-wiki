@@ -10,7 +10,7 @@ Just like a normal leveling plugin. Every Minecraft Player has his own leveling 
     A Player level up **15-25** xp each time they send a message.
 
 ## XP System
-This plugin uses the same aligorithm mee6 uses, which means that the more the player level up, the more xp is required to levelup to the next level. The Aligorithm used to calculate level's xp is `5 * (lvl ^ 2) + (50 * lvl) + 100 - xp` where lvl is current level, and xp is how much xp you already have towards next level.
+This plugin uses the same algorithm mee6 uses, which means that the more the player level up, the more xp is required to levelup to the next level. The Algorithm used to calculate level's xp is `5 * (lvl ^ 2) + (50 * lvl) + 100 - xp` where lvl is current level, and xp is how much xp you already have towards next level.
 
 ## Anti Spam
 
