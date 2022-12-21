@@ -27,11 +27,14 @@ Its very simply, before the steps make sure this is on
 2. Scroll until you find `disabled-commands`, add commands you want to disable
 3. Reload the plugin using `/dsu reload` and make sure you have the permission `discordsrvutils.reload`  
    
-    ![img.png](images/conf-disabled-commands-example.png)  
+    ![img.png](images/conf-disabled-commands-example.png)
 
-> ℹ It will be removed from slash command list
+  
+!!! info 
+    It will be removed from slash command list, those commands disabled will be as if they don't exist
 
-> ⚠ Please do not use aliases, and those commands disabled will be as if they don't exist
+!!! warning
+    ⚠ Please do not use aliases.
 
 # Requirements
 

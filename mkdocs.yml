@@ -25,7 +25,7 @@ nav:
       - 'How to Make a Ticket Panel': create-panel.md
     - 'Leveling System': 
       - 'How it works': leveling.md
-      - 'Leveling Roles': leveling-roles.md
+      - 'Leveling Roles': leveling-rewards.md
     - 'Suggestions System': 
       - 'How it works': suggestions.md
     - 'Invite Tracking': invite-tracking.md  
@@ -43,10 +43,11 @@ extra_css:
   - stylesheets/extra.css
 
 
-dev_addr: '0.0.0.0:3000'
+dev_addr: '127.0.0.1:3000'
 
 markdown_extensions:
   - def_list
+  - tables
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -54,11 +55,20 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 extra:
   social:
     - icon: fontawesome/brands/discord
       link: https://discordsrvutils.xyz/support
       name: DiscordSRVUtils Support
+
+
+plugins:
+    - redirects:
+        redirect_maps:
+            'leveling-roles.md': 'leveling-rewards.md'
 
 
