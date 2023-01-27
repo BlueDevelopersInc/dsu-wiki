@@ -1,4 +1,4 @@
-# Leveling Roles
+# Leveling Rewards
 
 You can control the leveling rewards rewards in the `/plugins/DiscordSRVUtils/leveling-rewards.json` file, this file is usually empty by default but 
 here we will explain how to use it
