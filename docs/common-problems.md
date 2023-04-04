@@ -43,3 +43,8 @@ Server is outdated, the default `status-online` message is not designed for old 
 ```
 Here we modified the `Players` field placeholder value from `${#server.getOnlinePlayers().size()}....` to `${#server.getOnlinePlayers().length}....`
 
+
+# Connecting to mysql
+
+If you are having issues connecting to mysql, make sure the database is completely empty. If this doesn't work come to our [Discord Server](https://discordsrvutils.xyz/support).
+
