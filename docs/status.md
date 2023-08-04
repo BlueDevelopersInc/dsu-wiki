@@ -31,3 +31,6 @@ Replace `${#server.getOnlinePlayers().size()}` with `%premiumvanish_playercount%
 The time to update the status message (without events), in seconds, shouldn't be lower than 1 minute as of discord rate limits
 
 
+# How to disable leveling?
+Simply run `/status` with no options.
+

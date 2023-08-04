@@ -4,7 +4,7 @@ DiscordSRVUtils Uses a Smart Messages System.
 
 ## How to set any Discord Message in the Plugin
 
-Any Message in the configurations that is a discord message uses the same way to customize it. If you want a normal Message, write the string normally, but if you want an embed, add the message embed to messages folder. Extension is json. then set the message to "embed:name" do not put json extension.
+Any Message in the configurations that is a discord message uses the same way to customize it. If you want a normal Message, write the string normally, but if you want an embed, add the message embed to messages folder. Extension is json. then set the message to "embed:name" do not put json extension. You can also organize them by creating folders inside of `messages` folder.
 
 ## Placeholders
 
