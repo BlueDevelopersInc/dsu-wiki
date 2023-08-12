@@ -734,10 +734,10 @@
 <h1 id="leveling">Leveling</h1>
 <p>DiscordSRVUtils has its own leveling system. This System works like a lot other plugins but with some changes</p>
 <h2 id="how-it-works">How it works</h2>
-<p>Just like a normal leveling plugin. Every Minecraft Player has his own leveling system. But as soon as they link their account, Their Discord User shares the level and xp. Chatting in discord would also increase their XP.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>A Player level up <strong>15-25</strong> xp each time they send a message.</p>
+<p>When a player chat in minecraft, they are given <strong>15-25</strong> xp, if the xp reaches maximum for the current level, they levelup to the next level. If the player link their discord account, when they chat on discord, it will also add xp to their minecraft account. This system depends only on chatting, minecraft xp/level system is not involved.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>When using anti-spam (enabled by default) xp will only be added 1 time per minute.</p>
 </div>
 <h2 id="xp-system">XP System</h2>
 <p>This plugin uses the same algorithm mee6 uses, which means that the more the player level up, the more xp is required to levelup to the next level. The Algorithm used to calculate level's xp is <code>5 * (lvl ^ 2) + (50 * lvl) + 100 - xp</code> where lvl is current level, and xp is how much xp you already have towards next level.</p>
