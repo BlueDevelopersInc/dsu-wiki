@@ -1,28 +1,35 @@
 # Messages System!
 
-DiscordSRVUtils Uses a Smart Messages System. 
+DiscordSRVUtils uses a smart messages system!
 
-## How to set any Discord Message in the Plugin
+# How to create/edit a message
 
-Any Message in the configurations that is a discord message uses the same way to customize it. If you want a normal Message, write the string normally, but if you want an embed, add the message embed to messages folder. Extension is json. then set the message to "embed:name" do not put json extension. You can also organize them by creating folders inside of `messages` folder.
+1. Create/Edit a `.json` file in the `messages` folder. The text before the `.json` is your message name.
+2. Enter your message content.
+3. You can identify (send) the message in **configurations** by using `message:NAME`
 
-## Placeholders
+!!! note 
+    You can test a message using `/testmessage` and given the name of the message. You can send a message normally using `/echo` command. Use `message:NAME` if you want to send a message from the messages folder.
 
-Depends on the message, for example afk message have "player" and you can use anything after it like "[player.name]". Must be a get method in the Player class, this is an example, other messages like welcome message have "user", "member" and "guild". Any of these must have [] and a .something (as i said needs to have a get method in the class)
+# Placeholders
 
-[Join Support if you don't understand this](https://discordsrvutils.xyz/support)
+There are infinite placeholders. This plugin's placeholders are not hard-coded. You can ask for help in [discord](https://discordsrvutils.xyz/support) if you need help finding something.
 
-# PAPI
+# PlaceholderAPI
 
-PAPI is always supported if you have it installed. the player is not set if its not a player-related message, what are player-related messages? Just like AFK Messages
-
-
-# SpEL
-
-- SpEL is supported too. Read how to use it: 
- * <a href="https://docs.spring.io/spring/docs/4.2.x/spring-framework-reference/html/expressions.html" target="blank">https://docs.spring.io</a> 
- * <a href="https://dzone.com/articles/learn-spring-expression-language-with-examples" target="blank">https://dzone.com</a> 
+If you have it installed, you can use it anywhere in the plugin. However, the messages are player-less.
 
 
-# Testing
-You can test your changes using `/testmessage <message name>`
+!!! note
+    If you are looking for information about the expansion. check [this](/placeholderapi). 
+
+# SpEL (Custom Placeholders)
+
+SpEL is supported too. Read how to use it: 
+
+- <a href="https://docs.spring.io/spring/docs/4.2.x/spring-framework-reference/html/expressions.html" target="blank">https://docs.spring.io</a> 
+- <a href="https://dzone.com/articles/learn-spring-expression-language-with-examples" target="blank">https://dzone.com</a> 
+
+!!! info 
+    If you need help creating a custom placeholder, [Get help](https://discordsrvutils.xyz/support).
+

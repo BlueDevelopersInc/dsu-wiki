@@ -19,20 +19,21 @@ nav:
     - 'Configuration':
       - 'Messages': messages.md 
       - 'Message JSON': message-json.md
-    - 'Common Problems': common-problems.md
     - 'Tickets System':
       - 'What are tickets': tickets.md
-      - 'How to Make a Ticket Panel': create-panel.md
+      - 'Create a ticket': create-panel.md
     - 'Leveling System': 
       - 'How it works': leveling.md
       - 'Leveling Rewards': leveling-rewards.md
     - 'Suggestions System': 
       - 'How it works': suggestions.md
     - 'Invite Tracking': invite-tracking.md  
-    - 'Status':
+    - 'Status System':
         - 'How to set it up': status.md
     - 'Punishments Integration': punishments-integration.md
+    - 'PlaceholderAPI Expansion': placeholderapi.md
     - 'Fixing Problems':
+        - 'Common Problems': common-problems.md
         - 'Request a Feature': 'https://github.com/BlueDevelopersInc/DiscordSRVUtils/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=%5BFeature+Request%5D+'
         - 'Report a Bug': 'https://github.com/BlueDevelopersInc/DiscordSRVUtils/issues/new?assignees=&labels=bug&template=bug-report.md&title=%5BBUG%5D'
         - 'Get Support': 'https://discordsrvutils.xyz/support'

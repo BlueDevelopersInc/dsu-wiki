@@ -7,7 +7,7 @@ and use it again and run `/dsu reload`, you can also run `/dsu debug` and check 
 
 ## /status console errors
 ### Reason 1
-Bad Permissions, please make sure this folder `plugins/discordsrvutils/data` has permission of 777, if folder doesn't exist create it and set permission to 777
+Bad Permissions, please make sure this folder `plugins/discordsrvutils/data` has permission of 664, if folder doesn't exist create it and set permission to 664
 ### Reason 2
 Server is outdated, the default `status-online` message is not designed for old versions, of course, you can modify the default one to the one for your server version, the following should work:
 

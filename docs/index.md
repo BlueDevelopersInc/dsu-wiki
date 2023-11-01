@@ -14,27 +14,32 @@ Its very simply, before the steps make sure this is on
 ![img](images/enable-dev-mode.gif)
 
 1. Go into your `config.yml` of DiscordSRVUtils
-2. the first option would be the admins, Add your Discord ID in or a role ID
+2. Add your user/role ID as shown below
 3. Reload the plugin using `/dsu reload` and make sure you have the permission `discordsrvutils.reload` 
 
-    ![img.png](images/conf-admins-example.png)
+```yaml
+admins: [831970480499589220]
+```
 
-> ⚠ Whoever is in the list of admins or have a role that is in list of admins have access to everything in the plugin (in discord)
+!!! warning
+    Whoever is in this list or has a role that is in this list has access to **all** discord commands from this plugin.
 
 # How to Disable Discord Commands
 
 1. Go to `config.yml`
 2. Scroll until you find `disabled-commands`, add commands you want to disable
 3. Reload the plugin using `/dsu reload` and make sure you have the permission `discordsrvutils.reload`  
-   
-    ![img.png](images/conf-disabled-commands-example.png)
+
+```yaml
+disabled-commands: [help]
+```
 
   
 !!! info 
     It will be removed from slash command list, those commands disabled will be as if they don't exist
 
 !!! warning
-    ⚠ Please do not use aliases.
+    Please do not use aliases. They aren't supported.
 
 # Requirements
 
@@ -43,13 +48,13 @@ Its very simply, before the steps make sure this is on
 
 # Optional Permissions
 
-- Ban Members (For Punishment Sync)
+- Ban Members (for punishment sync)
 - Manage Server (for detecting invititers)
-- Manage Channels (For ticket creation)
+- Manage Channels (for ticket creation)
 - Manage Roles (for welcomer role, and syncing mutes and ban role)
 
 # How we store data
 
-In a database, hsqldb or mysql(or mariadb). hsqldb is default
+In a local database by default, or mysql if you configure it to.
 
 

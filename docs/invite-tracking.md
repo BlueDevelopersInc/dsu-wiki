@@ -12,4 +12,7 @@ Use `/invites <mention user>`
 # Notes
 1. Re-inviting a user overrides old invite in database, so no duplications
 2. This requires Manage Server permission
-3. You don't need to enable the system to write the inviter in the welcome message, if you used older versions and your `welcome.json` wasn't updated, here is the placeholder: `${#inviter == null ? \"Unknown\" : #inviter.getAsTag()}` it is Unknown when we couldn't find the inviter, or inviter and their tag if we successfully found them
+3. You don't need to enable the system to write the inviter in the welcome message.
+
+!!! info
+    if you used older versions and your `welcome.json` wasn't updated, here is the placeholder: `${#inviter == null ? \"Unknown\" : #inviter.getAsTag()}`
