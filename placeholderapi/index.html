@@ -11,17 +11,17 @@
       
       
       
-        <link rel="prev" href="../messages/">
+        <link rel="prev" href="../punishments-integration/">
       
       
-        <link rel="next" href="../tickets/">
+        <link rel="next" href="../common-problems/">
       
       <link rel="icon" href="../images/logo.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.6">
     
     
       
-        <title>Message JSON - DiscordSRVUtils</title>
+        <title>PlaceholderAPI Expansion - DiscordSRVUtils</title>
       
     
     
@@ -81,7 +81,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#message-json" class="md-skip">
+        <a href="#placeholderapi-expansion" class="md-skip">
           Skip to content
         </a>
       
@@ -113,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Message JSON
+              PlaceholderAPI Expansion
             
           </span>
         </div>
@@ -195,20 +195,20 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
       
       
       
-        <label class="md-nav__link" for="__nav_1" tabindex="0" aria-expanded="true">
+        <label class="md-nav__link" for="__nav_1" tabindex="0" aria-expanded="false">
           Configuration
           <span class="md-nav__icon md-icon"></span>
         </label>
@@ -238,52 +238,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Message JSON
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../message-json/" class="md-nav__link">
         Message JSON
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-create-a-json" class="md-nav__link">
-    How to create a JSON
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -563,11 +522,21 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../placeholderapi/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         PlaceholderAPI Expansion
       </a>
+      
     </li>
   
 
@@ -685,21 +654,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-create-a-json" class="md-nav__link">
-    How to create a JSON
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -717,17 +671,49 @@
 
 
 
-<h1 id="message-json">Message JSON</h1>
-<p>Message JSON is the json you write to create a message.</p>
-<h2 id="how-to-create-a-json">How to create a JSON</h2>
-<p>Use <a href="https://leovoel.github.io/embed-visualizer/" target="_blank">this website</a> to create your json.</p>
+<h1 id="placeholderapi-expansion">PlaceholderAPI Expansion</h1>
+<p>This is the list of PlaceholderAPI placeholders provided by this plugin.</p>
+<table>
+<thead>
+<tr>
+<th>Placeholder</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>%discordsrvutils_level%</td>
+<td>Current level of the player.</td>
+</tr>
+<tr>
+<td>%discordsrvutils_xp%</td>
+<td>Current xp of the player.</td>
+</tr>
+<tr>
+<td>%discordsrvutils_rank%</td>
+<td>The current rank of the player. eg. #1</td>
+</tr>
+<tr>
+<td>%discordsrvutils_xp_total_required%</td>
+<td>The total number of XP required to reach the next level.</td>
+</tr>
+<tr>
+<td>%discordsrvutils_xp_percentage%</td>
+<td>The current progress of player's level.</td>
+</tr>
+<tr>
+<td>%discordsrvutils_xp_left%</td>
+<td>The number of XP left to reach the next level.</td>
+</tr>
+<tr>
+<td>%discordsrvutils_xp_percentage_left%</td>
+<td>The percentage of XP left to reach the next level.</td>
+</tr>
+</tbody>
+</table>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Placeholders will not be rendered in the display but they will be rendered when used in the plugin.</p>
-</div>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>This website does not support named colors (eg. <strong>BLUE</strong>), but this plugin does.</p>
+<p>You don't need to install any expansion. It is registered to PlaceholderAPI automatically.</p>
 </div>
 
 

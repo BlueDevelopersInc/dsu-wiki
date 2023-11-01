@@ -257,21 +257,6 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="common-problems/" class="md-nav__link">
-        Common Problems
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
     
     <li class="md-nav__item md-nav__item--nested">
       
@@ -280,17 +265,17 @@
       
         
       
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
       
       
-        <label class="md-nav__link" for="__nav_3" tabindex="0" aria-expanded="false">
+        <label class="md-nav__link" for="__nav_2" tabindex="0" aria-expanded="false">
           Tickets System
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Tickets System" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
+        <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
           Tickets System
         </label>
@@ -317,7 +302,7 @@
   
     <li class="md-nav__item">
       <a href="create-panel/" class="md-nav__link">
-        How to Make a Ticket Panel
+        Create a ticket
       </a>
     </li>
   
@@ -345,17 +330,17 @@
       
         
       
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       
       
-        <label class="md-nav__link" for="__nav_4" tabindex="0" aria-expanded="false">
+        <label class="md-nav__link" for="__nav_3" tabindex="0" aria-expanded="false">
           Leveling System
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Leveling System" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
+        <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Leveling System
         </label>
@@ -410,17 +395,17 @@
       
         
       
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       
       
-        <label class="md-nav__link" for="__nav_5" tabindex="0" aria-expanded="false">
+        <label class="md-nav__link" for="__nav_4" tabindex="0" aria-expanded="false">
           Suggestions System
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Suggestions System" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+        <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
           Suggestions System
         </label>
@@ -476,19 +461,19 @@
       
         
       
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
       
       
-        <label class="md-nav__link" for="__nav_7" tabindex="0" aria-expanded="false">
-          Status
+        <label class="md-nav__link" for="__nav_6" tabindex="0" aria-expanded="false">
+          Status System
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Status" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
+      <nav class="md-nav" aria-label="Status System" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
-          Status
+          Status System
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -534,6 +519,21 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="placeholderapi/" class="md-nav__link">
+        PlaceholderAPI Expansion
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
     
     <li class="md-nav__item md-nav__item--nested">
       
@@ -557,6 +557,20 @@
           Fixing Problems
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="common-problems/" class="md-nav__link">
+        Common Problems
+      </a>
+    </li>
+  
+
+            
           
             
               
@@ -657,31 +671,30 @@
 <p><img alt="img" src="images/enable-dev-mode.gif" /></p>
 <ol>
 <li>Go into your <code>config.yml</code> of DiscordSRVUtils</li>
-<li>the first option would be the admins, Add your Discord ID in or a role ID</li>
-<li>
-<p>Reload the plugin using <code>/dsu reload</code> and make sure you have the permission <code>discordsrvutils.reload</code> </p>
-<p><img alt="img.png" src="images/conf-admins-example.png" /></p>
-</li>
+<li>Add your user/role ID as shown below</li>
+<li>Reload the plugin using <code>/dsu reload</code> and make sure you have the permission <code>discordsrvutils.reload</code> </li>
 </ol>
-<blockquote>
-<p>⚠ Whoever is in the list of admins or have a role that is in list of admins have access to everything in the plugin (in discord)</p>
-</blockquote>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">admins</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">831970480499589220</span><span class="p p-Indicator">]</span>
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Whoever is in this list or has a role that is in this list has access to <strong>all</strong> discord commands from this plugin.</p>
+</div>
 <h1 id="how-to-disable-discord-commands">How to Disable Discord Commands</h1>
 <ol>
 <li>Go to <code>config.yml</code></li>
 <li>Scroll until you find <code>disabled-commands</code>, add commands you want to disable</li>
-<li>
-<p>Reload the plugin using <code>/dsu reload</code> and make sure you have the permission <code>discordsrvutils.reload</code>  </p>
-<p><img alt="img.png" src="images/conf-disabled-commands-example.png" /></p>
-</li>
+<li>Reload the plugin using <code>/dsu reload</code> and make sure you have the permission <code>discordsrvutils.reload</code>  </li>
 </ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">disabled-commands</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">help</span><span class="p p-Indicator">]</span>
+</code></pre></div>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>It will be removed from slash command list, those commands disabled will be as if they don't exist</p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>⚠ Please do not use aliases.</p>
+<p>Please do not use aliases. They aren't supported.</p>
 </div>
 <h1 id="requirements">Requirements</h1>
 <ul>
@@ -690,13 +703,13 @@
 </ul>
 <h1 id="optional-permissions">Optional Permissions</h1>
 <ul>
-<li>Ban Members (For Punishment Sync)</li>
+<li>Ban Members (for punishment sync)</li>
 <li>Manage Server (for detecting invititers)</li>
-<li>Manage Channels (For ticket creation)</li>
+<li>Manage Channels (for ticket creation)</li>
 <li>Manage Roles (for welcomer role, and syncing mutes and ban role)</li>
 </ul>
 <h1 id="how-we-store-data">How we store data</h1>
-<p>In a database, hsqldb or mysql(or mariadb). hsqldb is default</p>
+<p>In a local database by default, or mysql if you configure it to.</p>
 
 
 
