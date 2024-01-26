@@ -43,8 +43,8 @@ disabled-commands: [help]
 
 # Requirements
 
-- DiscordSRV.
-- Minecraft version from 1.8 -> 1.20.4 (new versions should work without new updates)
+- DiscordSRV 1.27.0+.
+- Bukkit/Spigot/Paper (1.8+)
 
 # Optional Permissions
 
