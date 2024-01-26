@@ -6,18 +6,18 @@ First, you need to configure suggestions.
 
 ### Enable Suggestions
 
-in the suggestions.yml.. switch enabled to true
+In the suggestions.yml.. switch enabled to true
 ```yaml
 enabled: true
 ```
 
 ### Set suggestions channel
 
-in the suggestions.yml, set suggestions_channel to your suggestions channel
+In the suggestions.yml, set suggestions_channel to your suggestions channel
 
 ```yaml
 enabled: true
-suggestions_channel: 894677242238623796 #Example ID, this won't work for you
+suggestions_channel: 894677242238623796 # Example ID, this won't work for you
 ```
 
 ### Other configuration

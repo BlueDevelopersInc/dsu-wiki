@@ -4,7 +4,7 @@ You can control the leveling rewards rewards in the `/plugins/DiscordSRVUtils/le
 here we will explain how to use it
 
 # Format
-it's a json, key is the level value is an object, that contains console commands or discord role ids, here is how to use it:
+It's a json, key is the level value is an object, that contains console commands or discord role ids, here is how to use it:
 
 ```json
 {

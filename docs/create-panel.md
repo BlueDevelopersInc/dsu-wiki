@@ -4,14 +4,14 @@
 
 - You are on the admin list in the config
 
-- You have dev mode on 
+- You have developer mode on 
 
 ![IMG](images/enable-dev-mode.gif)
 
 ## Let's start
 
 Ok, now use the /createpanel
-if you want to retry any step, you will have to say "cancel" and use the command again
+If you want to retry any step, you will have to say "cancel" and use the command again
 
 ### Step 1: Panel Name
 

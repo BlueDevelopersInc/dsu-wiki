@@ -10,15 +10,16 @@ Use the `/status` command, and mention the channel, for example `/status #server
 
 # How to find events
 
-> ⚠ Not Events from all plugins are supported, only the ones that work with bukkit event system
+!!! warning
+    Not all plugin events can be captured by this plugin, only those that use the Bukkit API.
 
-Ask the developer of plugin about this, events from bukkit (that have no plugins for it) pls ask in our [support discord](https://discordsrvutils.xyz/support)
+Ask the developer of plugin about this, events from bukkit (that have no plugins for it) please ask in our [support discord](https://discordsrvutils.xyz/support)
 
 # How to change the message
 
-For online message, go into `/plugins/DiscordSRVUtils/messages/status-online.json` this is the [json of the message](messages.md)
+For online message, go into `plugins/DiscordSRVUtils/messages/status-online.json` this is the [json of the message](messages.md)
 
-For offline message, go into `/plugins/DiscordSRVUtils/messages/status-offline.json` ⚠ this one does not support PlaceholderAPI
+For offline message, go into `plugins/DiscordSRVUtils/messages/status-offline.json` ⚠ this one does not support PlaceholderAPI
 
 # Compatibility with other plugins
 

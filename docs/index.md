@@ -9,7 +9,7 @@ We work hard to make the plugin very easy as we can. Here we explain how to do e
 4. Configure the plugin, in most cases you need to have admin
 
 # How to get Admin
-Its very simply, before the steps make sure this is on
+Its very simply, before the steps make sure developer mode is on:
 
 ![img](images/enable-dev-mode.gif)
 
@@ -44,7 +44,7 @@ disabled-commands: [help]
 # Requirements
 
 - DiscordSRV.
-- Minecraft version from 1.8 -> 1.20.2 (new versions should work without new dsu updates)
+- Minecraft version from 1.8 -> 1.20.4 (new versions should work without new updates)
 
 # Optional Permissions
 
