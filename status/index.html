@@ -678,13 +678,14 @@
 <h1 id="how-to-enable-it">How to enable it</h1>
 <p>Use the <code>/status</code> command, and mention the channel, for example <code>/status #server-status</code></p>
 <h1 id="how-to-find-events">How to find events</h1>
-<blockquote>
-<p>⚠ Not Events from all plugins are supported, only the ones that work with bukkit event system</p>
-</blockquote>
-<p>Ask the developer of plugin about this, events from bukkit (that have no plugins for it) pls ask in our <a href="https://discordsrvutils.xyz/support">support discord</a></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Not all plugin events can be captured by this plugin, only those that use the Bukkit API.</p>
+</div>
+<p>Ask the developer of plugin about this, events from bukkit (that have no plugins for it) please ask in our <a href="https://discordsrvutils.xyz/support">support discord</a></p>
 <h1 id="how-to-change-the-message">How to change the message</h1>
-<p>For online message, go into <code>/plugins/DiscordSRVUtils/messages/status-online.json</code> this is the <a href="../messages/">json of the message</a></p>
-<p>For offline message, go into <code>/plugins/DiscordSRVUtils/messages/status-offline.json</code> ⚠ this one does not support PlaceholderAPI</p>
+<p>For online message, go into <code>plugins/DiscordSRVUtils/messages/status-online.json</code> this is the <a href="../messages/">json of the message</a></p>
+<p>For offline message, go into <code>plugins/DiscordSRVUtils/messages/status-offline.json</code> ⚠ this one does not support PlaceholderAPI</p>
 <h1 id="compatibility-with-other-plugins">Compatibility with other plugins</h1>
 <p>The only current known problem is when you use premium/super vanish and don't want vanished players to show up, in this case you need PlaceholderAPI</p>
 <p>Replace <code>${#server.getOnlinePlayers().size()}</code> with <code>%premiumvanish_playercount%</code> or with <code>%supervanish_playercount%</code> (depending on what you use)</p>
